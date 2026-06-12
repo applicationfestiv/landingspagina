@@ -9,15 +9,14 @@
 }
 
 :root {
-  --green-dark: #1C3829;
-  --green-mid: #2D5A3D;
-  --green-light: #4A8A5C;
-  --cream: #F5F0E8;
-  --cream-dark: #EDE6D6;
-  --rose: #E8826A;
-  --rose-dark: #D4674F;
-  --text-dark: #1C2B1E;
-  --text-mid: #3D5040;
+  --purple-light: #C0B7EA;
+  --purple-dark: #2A1758;
+  --accent: #FFD166;
+  --bg: #2A1758;
+  --bg-mid: #3a2570;
+  --bg-light: #4a3480;
+  --text: #FFFFFF;
+  --text-muted: rgba(255,255,255,0.65);
 }
 
 html {
@@ -26,8 +25,8 @@ html {
 
 body {
   font-family: 'Inter', system-ui, sans-serif;
-  background: var(--cream);
-  color: var(--text-dark);
+  background: var(--bg);
+  color: var(--text);
   min-height: 100vh;
   overflow-x: hidden;
 }
